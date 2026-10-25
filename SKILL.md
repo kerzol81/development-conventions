@@ -7,6 +7,12 @@ description: Build or modify web frontends using Flask, offline Bootstrap 5, and
 
 Follow these defaults. Apply the web interface sections to web projects, the independent CLI colors section to scripts and terminal programs, and the design patterns section to Python and Go code. Deviate only when the user explicitly requests a specific exception.
 
+## Existing Projects and Change Scope
+
+- When modifying an existing project, apply these conventions within the scope of the requested change.
+- Preserve existing architecture, frameworks, file organization, and working behavior outside that scope. Do not automatically migrate or restructure the entire codebase to match these conventions.
+- Make broader migrations or refactoring only when the user requests them or they are necessary to complete the requested change. Keep necessary supporting changes limited and explain their purpose.
+
 ## Technology and Offline Operation
 
 - Use a Flask backend and Bootstrap 5.3.x frontend; pin an exact version.
